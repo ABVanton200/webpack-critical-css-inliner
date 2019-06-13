@@ -75,7 +75,7 @@ module.exports = {
   entry: path.resolve(__dirname, 'src/', 'index.js'),
 
   output: {
-    path: path.resolve(__dirname, 'dist/'),,
+    path: path.resolve(__dirname, 'dist/'),
     filename: 'webpack-critical-css-inliner.[contenthash].js'
   },
 
