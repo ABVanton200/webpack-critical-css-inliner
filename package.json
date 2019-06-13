@@ -1,6 +1,6 @@
 {
   "name": "webpack-critical-css-inliner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A fast webpack plugin for inlining critical (above-the-fold) css",
   "main": "src/index.js",
   "repository": "https://github.com/ABVanton200/webpack-critical-css-inliner",

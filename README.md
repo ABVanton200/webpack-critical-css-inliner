@@ -66,15 +66,16 @@ module.exports = {
 const WebpackCriticalCSSInliner = require('webpack-critical-css-inliner');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path');
 
 module.exports = {
 
   mode: 'production',
 
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, 'src/', 'index.js'),
 
   output: {
-    path: OUTPUT_DIR,
+    path: path.resolve(__dirname, 'dist/'),,
     filename: 'webpack-critical-css-inliner.[contenthash].js'
   },
 
