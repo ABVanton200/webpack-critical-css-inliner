@@ -1,9 +1,28 @@
 {
   "name": "webpack-critical-css-inliner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fast webpack plugin for inlining critical (above-the-fold) css",
   "main": "src/index.js",
+  "repository": "https://github.com/ABVanton200/webpack-critical-css-inliner",
+  "bugs": {
+    "url": "https://github.com/ABVanton200/webpack-critical-css-inliner/issues"
+  },
+  "author": "Anton Babakhin <abvanton@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "webpack",
+    "critical",
+    "critical css",
+    "inline critical css",
+    "extract critical css",
+    "critical css inliner",
+    "critical path",
+    "puppeteer",
+    "optimization",
+    "performance",
+    "dropcss",
+    "adaptive design"
+  ],
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
     "test": "mocha ./test/**/*.spec.js --timeout 150000"
