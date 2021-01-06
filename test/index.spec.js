@@ -1,4 +1,4 @@
-const assert = require('assert');
+const assert = require('assert').strict;
 const WebpackCriticalCSSInliner = require('../src/index');
 
 describe('WebpackCriticalCSSInliner', () => {
@@ -8,7 +8,7 @@ describe('WebpackCriticalCSSInliner', () => {
     it('WebpackCriticalCSSInliner has the required apply method', (done) => {
       let hasRequiredFunction = typeof new WebpackCriticalCSSInliner().apply === 'function';
   
-      assert.equal(hasRequiredFunction, true);
+      assert.strictEqual(hasRequiredFunction, true);
       
       done();
     });
@@ -16,7 +16,7 @@ describe('WebpackCriticalCSSInliner', () => {
     it('WebpackCriticalCSSInliner has the required emit method', (done) => {
       let hasRequiredFunction = typeof new WebpackCriticalCSSInliner().emit === 'function';
   
-      assert.equal(hasRequiredFunction, true);
+      assert.strictEqual(hasRequiredFunction, true);
 
       done();
     });    
