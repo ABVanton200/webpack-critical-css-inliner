@@ -16,7 +16,7 @@ class WebpackCriticalCSSInliner {
       this.emit(compilation, callback);
     });
   }
-  
+
 }
 
 module.exports = WebpackCriticalCSSInliner;
