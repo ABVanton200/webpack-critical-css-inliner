@@ -1,6 +1,6 @@
 {
   "name": "webpack-critical-css-inliner",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A fast webpack plugin for inlining critical (above-the-fold) css",
   "main": "./src/index.js",
   "repository": "https://github.com/ABVanton200/webpack-critical-css-inliner",
@@ -28,14 +28,14 @@
     "test": "mocha ./test/**/*.spec.js --timeout 150000"
   },
   "dependencies": {
-    "critical-css-inliner": "^1.1.0"
+    "critical-css-inliner": "^1.1.1"
   },
   "devDependencies": {
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.1",
-    "mini-css-extract-plugin": "^1.3.3",
+    "mini-css-extract-plugin": "^1.3.4",
     "mocha": "^8.2.1",
-    "webpack": "^5.11.1",
+    "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1"
   }
 }
