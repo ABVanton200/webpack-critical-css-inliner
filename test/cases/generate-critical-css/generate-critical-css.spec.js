@@ -7,7 +7,7 @@ const webpackConfig3 = require('./webpack.config3');
 const webpack = require('webpack');
 
 const css1 = `.ass{color:red;padding:5px;margin-top:100px}p{font-family:Roboto}`;
-const css2 = `@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxP.ttf) format("truetype")}`;
+const css2 = `@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format("truetype")}`;
 const css3 = `.cookie{background-color:red}`;
 
 describe('WebpackCriticalCSSInliner Cases: Generate Critical CSS', () => {
